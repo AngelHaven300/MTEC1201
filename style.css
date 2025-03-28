@@ -1,0 +1,244 @@
+body, html {
+    height: 100%;
+    font-family: 'Teko', sans-serif;
+        /* from google fonts */ 
+    font-weight: 500;
+    color: aliceblue;
+    background-color: #0E1B84;
+    padding-bottom: 100px;
+    
+}
+
+
+
+.hero-image {
+    background-image: url("Angel-12-10-2023.jpg");
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h5 {
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+   
+}
+
+h1, h3 {
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #555BD9;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #0F228C;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: aqua;
+    transform: scale(1.2);
+    margin: 0;
+    text-shadow: aqua 1px 0 10px;
+
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+#wrapper {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 0px;
+
+}
+
+progress {
+    border-radius: 7px;
+    width: 400px;
+    height: 30px;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 ); 
+    
+}
+
+progress::-webkit-progress-bar {
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+progress::-webkit-progress-value {
+    background-color: darkcyan;
+    border-radius: 7px;
+}
+
+div.load {
+    
+  	/* height: fit-content; */
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	padding-top: 10px;
+    font-family: 'Silkscreen', sans-serif;
+    
+}
+
+div.contact {
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+  	/* height: fit-content; */
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: aqua;
+	margin: auto;
+	padding: 5px;
+	background-color: #1D6373;
+    }
+
+#porttext {
+    text-align: center;
+    color: aqua;
+    text-shadow: white 1px 0 10px;
+}
+
+#porttext2 {
+    text-align: center;
+    font-size: larger;
+
+}
+
+#titlebio {
+    text-align: center;
+    text-shadow: aqua 1px 0 10px;
+}
+
+div.BIO {
+    width: 85%;
+  	/* height: fit-content; */
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: aqua;
+	margin: auto;
+	padding: 30px;
+	background-color: #1D6373;
+}
+
+div.education {
+    width: 90%;
+  	/* height: fit-content; */
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: aqua;
+	margin: auto;
+	padding: 5px;
+	background-color: #1D6373;
+}
+
+div.experiences {
+    width: 90%;
+  	/* height: fit-content; */
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: aqua;
+	margin: auto;
+	padding: 5px;
+	background-color: #1D6373;
+}
+
+div.goals {
+    width: 90%;
+  	/* height: fit-content; */
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: aqua;
+	margin: auto;
+	padding: 5px;
+	background-color: #1D6373;
+}
+
+#wrapper2 { 
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 30px;
+} 
+
+#wrapper2 {
+    width: 90%;
+    word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: aqua;
+	margin: auto;
+	padding: 5px;
+	background-color: #1D6373;
+}
+
+#wrapper3 { 
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 30px;
+} 
+
+#wrapper3 {
+    width: 90%;
+    word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: aqua;
+	margin: auto;
+	padding: 5px;
+	background-color: #1D6373;
+}
+
+#title2 {
+    text-shadow: aqua 1px 0 10px;
+}
+
+#title {
+    text-shadow: aqua 1px 0 10px;
+}
